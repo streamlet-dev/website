@@ -10,9 +10,9 @@ const config = {
 			assets: 'build',
 			fallback: null
 		}),
-        prerender: {
-            default: true,
-        },
+		prerender: {
+			default: true
+		}
 	},
 	preprocess: [
 		preprocess({
