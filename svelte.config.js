@@ -3,20 +3,14 @@ import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-    kit: {
-        adapter: adapter({
-            // default options are shown
-            pages: 'build',
-            assets: 'build',
-            fallback: null
-        }),
-        /*
-        If you need to serve your file from a sub directory
-        paths: {
-            base: '/your-sub-dir',
-        },
-        */
-    },
+	kit: {
+		adapter: adapter({
+			// default options are shown
+			pages: 'build',
+			assets: 'build',
+			fallback: null
+		})
+	},
 	preprocess: [
 		preprocess({
 			postcss: true
