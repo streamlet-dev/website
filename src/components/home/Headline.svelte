@@ -14,7 +14,7 @@
 			<div class="flex justify-center items-center h-full">
 				<div class="text-center text-white px-6 md:px-12">
 					<h1 class="text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-						The best offer on the market <br /><span>for your business</span>
+						Streaming dataflow engine
 					</h1>
 					<a
 						class="inline-block px-7 py-3 mr-2 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"

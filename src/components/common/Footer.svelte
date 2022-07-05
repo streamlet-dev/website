@@ -1,4 +1,4 @@
-<footer class="text-center bg-gray-900 text-white">
+<footer class="text-center bg-darkblue text-white">
 	<div class="container px-6 pt-6">
 		<div class="flex justify-center mb-6">
 			<a
@@ -201,7 +201,7 @@
 		</div>
 	</div>
 
-	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.5);">
 		© 2021
 		<a class="text-white" href="https://streamlet.tech/">Streamlet Tech</a>
 	</div>

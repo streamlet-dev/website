@@ -1,5 +1,5 @@
 <!-- Navbar goes here -->
-<nav class="bg-white shadow-lg">
+<nav class="bg-darkblue shadow-lg">
 	<div class="max-w-6xl mx-auto px-4">
 		<div class="flex justify-between">
 			<div class="flex space-x-7">
@@ -7,19 +7,20 @@
 					<!-- Website Logo -->
 					<a href="/" class="flex items-center py-4 px-2">
 						<img src="/img/streamlets.png" alt="Logo" class="h-8 w-8 mr-2" />
-						<span class="font-semibold text-gray-500 text-lg">Streamlet.tech</span>
+						<span class="font-semibold text-slate-300 text-lg">Streamlet.tech</span>
 					</a>
 				</div>
+
 				<!-- Primary Navbar items -->
 				<div class="hidden md:flex items-center space-x-1">
 					<a
 						href="product"
-						class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+						class="py-4 px-2 text-slate-300 font-semibold hover:text-slate-500 transition duration-300"
 						>Product</a
 					>
 					<a
 						href="company"
-						class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
+						class="py-4 px-2 text-slate-300 font-semibold hover:text-slate-500 transition duration-300"
 						>Company</a
 					>
 				</div>
@@ -28,15 +29,16 @@
 			<div class="hidden md:flex items-center space-x-3 ">
 				<a
 					href="contact"
-					class="py-2 px-2 font-medium text-white bg-green-500 rounded hover:bg-green-400 transition duration-300"
+					class="py-2 px-2 font-medium text-white bg-slate-500 rounded hover:bg-slate-400 transition duration-300"
 					>Sign Up</a
 				>
 			</div>
+
 			<!-- Mobile menu button -->
 			<div class="md:hidden flex items-center">
 				<button class="outline-none mobile-menu-button">
 					<svg
-						class=" w-6 h-6 text-gray-500 hover:text-green-500 "
+						class=" w-6 h-6 text-slate-300 hover:text-slate-500 "
 						x-show="!showMenu"
 						fill="none"
 						stroke-linecap="round"
@@ -51,29 +53,34 @@
 			</div>
 		</div>
 	</div>
+
 	<!-- mobile menu -->
 	<div class="hidden mobile-menu">
 		<ul class="">
 			<li class="active">
-				<a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold"
+				<a href="index.html" class="block text-sm px-2 py-4 text-white bg-slate-500 font-semibold"
 					>Home</a
 				>
 			</li>
 			<li>
 				<a
 					href="#services"
-					class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a
+					class="block text-sm px-2 py-4 text-slate-200 hover:bg-slate-500 transition duration-300"
+					>Services</a
 				>
 			</li>
 			<li>
-				<a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300"
+				<a
+					href="#about"
+					class="block text-sm px-2 py-4 text-slate-200  hover:bg-slate-500 transition duration-300"
 					>About</a
 				>
 			</li>
 			<li>
 				<a
 					href="#contact"
-					class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact Us</a
+					class="block text-sm px-2 py-4 text-slate-200 hover:bg-slate-500 transition duration-300"
+					>Contact Us</a
 				>
 			</li>
 		</ul>

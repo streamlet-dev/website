@@ -1,5 +1,5 @@
 <section class="mb-32 text-gray-800 text-center">
-	<h2 class="text-3xl font-bold mb-12">Why is it so<u class="text-blue-600"> great?</u></h2>
+	<h2 class="text-3xl font-bold mb-12">Why is it so <span class="text-blue-600"> great?</span></h2>
 	<div class="grid md:grid-cols-3 lg:gap-x-12">
 		<div class="mb-12 md:mb-0">
 			<div class="p-4 bg-blue-600 rounded-lg shadow-lg inline-block mb-6">

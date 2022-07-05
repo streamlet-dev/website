@@ -12,6 +12,7 @@ const config = {
 			colors: {
 				transparent: 'transparent',
 				current: 'currentColor',
+				darkblue: '#00101a',
 				indigo: colors.indigo,
 				blue: colors.blue,
 				red: colors.red,
