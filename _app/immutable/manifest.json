@@ -1,48 +1,81 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-2a7f02f4.js",
+    "file": "start-5abe5e68.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-c3650d4a.js"
+      "_index-078ab851.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "src/routes/index.svelte"
+      "src/routes/company.svelte",
+      "src/routes/contact.svelte",
+      "src/routes/index.svelte",
+      "src/routes/product.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-c113b9c7.js",
+    "file": "pages/__layout.svelte-8c549893.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c3650d4a.js"
+      "_index-078ab851.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-2956ff39.css"
+      "assets/app-d4e79ef8.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-61066a60.js",
+    "file": "error.svelte-ca1c0313.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c3650d4a.js"
+      "_index-078ab851.js"
+    ]
+  },
+  "src/routes/company.svelte": {
+    "file": "pages/company.svelte-ff131261.js",
+    "src": "src/routes/company.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-078ab851.js"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "pages/contact.svelte-fe46ef19.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-078ab851.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-f09a5c80.js",
+    "file": "pages/index.svelte-6e78af39.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-c3650d4a.js"
+      "_index-078ab851.js"
+    ],
+    "css": [
+      "assets/app-d4e79ef8.css"
     ]
   },
-  "_index-c3650d4a.js": {
-    "file": "chunks/index-c3650d4a.js"
+  "src/routes/product.svelte": {
+    "file": "pages/product.svelte-4b0b8fb7.js",
+    "src": "src/routes/product.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-078ab851.js"
+    ]
+  },
+  "_index-078ab851.js": {
+    "file": "chunks/index-078ab851.js"
   }
 }
