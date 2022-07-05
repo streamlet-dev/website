@@ -1,6 +1,6 @@
 {
-	"name": "website",
-	"version": "0.0.1",
+	"name": "streamlet-tech",
+	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -20,7 +20,12 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-static": "^1.0.0-next.34",
 		"@sveltejs/kit": "next",
+		"@tailwindcss/aspect-ratio": "^0.4.0",
+		"@tailwindcss/forms": "^0.5.2",
+		"@tailwindcss/line-clamp": "^0.4.0",
+		"@tailwindcss/typography": "^0.5.2",
 		"autoprefixer": "^10.4.7",
+		"cssnano": "^5.1.12",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
@@ -31,10 +36,13 @@
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.7",
-		"tailwindcss": "^3.1.4",
-		"typescript": "^4.7.2"
+		"tailwindcss": "^3.1.4"
 	},
 	"dependencies": {
-		"svelte-preprocess": "^4.10.7"
+		"svelte-i18n": "^3.4.0",
+		"svelte-navigator": "^3.1.6",
+		"svelte-preprocess": "^4.10.7",
+		"svelte-routing": "^1.6.0",
+		"svelte-stripe-js": "^0.0.12"
 	}
 }
