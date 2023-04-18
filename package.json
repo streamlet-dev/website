@@ -1,5 +1,5 @@
 {
-	"name": "streamlet-tech",
+	"name": "streamlet-dev",
 	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
@@ -13,7 +13,8 @@
 		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
 		"test": "playwright test",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"fix": "prettier --write --plugin-search-dir=. .",
+		"format": "yarn fix"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.22.2",

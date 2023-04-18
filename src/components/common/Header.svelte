@@ -7,7 +7,7 @@
 					<!-- Website Logo -->
 					<a href="/" class="flex items-center py-4 px-2">
 						<img src="/img/streamlets.png" alt="Logo" class="h-8 w-8 mr-2" />
-						<span class="font-semibold text-slate-300 text-lg">Streamlet.tech</span>
+						<span class="font-semibold text-slate-300 text-lg">streamlet.dev</span>
 					</a>
 				</div>
 
