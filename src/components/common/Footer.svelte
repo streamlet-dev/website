@@ -203,6 +203,6 @@
 
 	<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.5);">
 		© 2021
-		<a class="text-white" href="https://streamlet.tech/">Streamlet Tech</a>
+		<a class="text-white" href="https://streamlet.dev/">Streamlet</a>
 	</div>
 </footer>
